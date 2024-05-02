@@ -96,8 +96,10 @@ main div a{
    }
  }
 @media screen and (min-widht: 1024px){
-    grid-template-columns: (2, 1fr);
-    grid-template-rows: (2, 100%;)
+  main{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: repeat(2, 100%)
+  }
 }
 
 
